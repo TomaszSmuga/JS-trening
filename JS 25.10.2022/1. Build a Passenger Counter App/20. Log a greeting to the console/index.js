@@ -5,3 +5,16 @@
 // Log myGreeting to the console
 
 
+let name = "Tomek"
+let greeting = "Hi, my name is "
+
+let myGreeting = greeting + name
+
+console.log(myGreeting)
+
+let points = 4
+let bonusPoints = "10"
+
+totalPoints = points + bonusPoints
+
+console.log(totalPoints)

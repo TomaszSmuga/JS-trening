@@ -8,4 +8,9 @@ function increment() {
 
 // 1. Create a function, save(), which logs out the count when it's called
 
+let logOut = document.getElementById("save-btn")
+
+function save() {
+    console.log(count)
+}
 
