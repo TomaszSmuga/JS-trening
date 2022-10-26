@@ -2,4 +2,14 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
 
+let errorMessage = document.getElementById("error")
+let purchaseBtn = document.getElementById("purchase-btn")
+ 
+
+function displayMessage(){
+   
+    errorMessage.textContent = "Something went wrong, please try again"
+    
+}
+
 
