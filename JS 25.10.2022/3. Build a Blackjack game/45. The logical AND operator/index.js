@@ -1,10 +1,10 @@
 let hasCompletedCourse = false
 let givesCertificate = true
 
-if (hasCompletedCourse === true) {
-    if (givesCertificate === true) {
-        generateCertificate()
-    }
+if (hasCompletedCourse === true && givesCertificate === true) {
+    // if (givesCertificate === true) {
+    //     generateCertificate()
+    // }
 }
 
 function generateCertificate() {
